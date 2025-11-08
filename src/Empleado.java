@@ -2,13 +2,13 @@ public class Empleado {
     private String nombre;
     private String apellido;
     private String sexo;
-    private int añosServicio;
+    private int añosServicios;
 
-    public Empleado(String nombre, String apellido, String sexo, int añosServicio){
+    public Empleado(String nombre, String apellido, String sexo, int añosServicios){
         this.nombre = nombre;
         this.apellido = apellido;
         this.sexo = sexo;
-        this.añosServicio = añosServicio;
+        this.añosServicios = añosServicio;
     }
 
     public String getNombre() {
@@ -35,11 +35,11 @@ public class Empleado {
         this.sexo = sexo;
     }
 
-    public int getAñosServicio() {
-        return añosServicio;
+    public int getAñosServicios() {
+        return añosServicios;
     }
 
-    public void setAñosServicio(int añosServicio) {
-        this.añosServicio = añosServicio;
+    public void setAñosServicios(int añosServicios) {
+        this.añosServicios = añosServicios;
     }
 }
