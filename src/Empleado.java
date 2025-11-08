@@ -8,7 +8,7 @@ public class Empleado {
         this.nombre = nombre;
         this.apellido = apellido;
         this.sexo = sexo;
-        this.añosServicios = añosServicio;
+        this.añosServicios = añosServicios;
     }
 
     public String getNombre() {
