@@ -3,8 +3,8 @@ public class EmpleadoComision extends Empleado{
     private double ventas;
     private double porcentajeComision;
 
-    public EmpleadoComision(String nombre, String apellido, String sexo, int añosServicio, double salarioBase, double ventas, double porcentajeComision) {
-        super(nombre, apellido, sexo, añosServicio);
+    public EmpleadoComision(String nombre, String apellido, String sexo, int añosServicios, double salarioBase, double ventas, double porcentajeComision) {
+        super(nombre, apellido, sexo, añosServicios);
         this.salarioBase = salarioBase;
         this.ventas = ventas;
         this.porcentajeComision = porcentajeComision;
@@ -45,7 +45,7 @@ public class EmpleadoComision extends Empleado{
         System.out.println("=== Empleado por Comisión ===");
         System.out.println("Nombre: " + getNombre() + " " + getApellido());
         System.out.println("Sexo: " + getSexo());
-        System.out.println("Años de servicio: " + getAñosServicio());
+        System.out.println("Años de servicio: " + getAñosServicios());
         System.out.println("Salario base: $" + salarioBase);
         System.out.println("Ventas realizadas: $" + ventas);
         System.out.println("Porcentaje comisión: " + porcentajeComision + "%");
